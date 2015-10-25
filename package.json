@@ -1,0 +1,11 @@
+{
+  "name": "mongolastic",
+  "version": "1.0.0",
+  "description": "import documents from mongodb to elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
