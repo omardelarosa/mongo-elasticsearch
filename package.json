@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "import documents from mongodb to elasticsearch",
   "main": "index.js",
-  "keywords": [ 
-    "mongo", "mongodb", "elasticsearch", "database", "importer", "transfer", "data"
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "elasticsearch",
+    "database",
+    "importer",
+    "transfer",
+    "data"
   ],
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec test/"
@@ -24,7 +30,8 @@
   "license": "ISC",
   "dependencies": {
     "elasticsearch": "~8.2.0",
-    "mongodb": "~2.0.46"
+    "mongodb": "~2.0.46",
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "chai": "^3.4.0",
