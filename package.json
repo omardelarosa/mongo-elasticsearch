@@ -1,6 +1,6 @@
 {
   "name": "mongolastic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "import documents from mongodb to elasticsearch",
   "main": "index.js",
   "keywords": [
