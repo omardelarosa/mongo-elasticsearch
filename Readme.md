@@ -1,24 +1,24 @@
-# Mongolastic
+# Mongo-Elasticsearch
 
-Transfer MongoDB collections into Elasticsearch safely using JS native Promises and batches.
+Transfer document collections from MongoDB into Elasticsearch indexes safely and easily.
 
 ## Build Status
-Branch  | Build Status | Version
-------- | ------------ | ----
- master | [![build status](https://travis-ci.org/omardelarosa/mongolastic.png?branch=master)](https://travis-ci.org/omardelarosa/mongolastic?branch=master)  |  [![npm version](https://img.shields.io/npm/v/mongolastic.svg)](https://img.shields.io/npm/v/mongolastic.svg)
- development | [![build status](https://travis-ci.org/omardelarosa/mongolastic.png?branch=development)](https://travis-ci.org/omardelarosa/mongolastic?branch=development) | 1.0.1
+Branch  | Build Status | Version | Code Quality
+------- | ------------ | ------- | -----------
+ master | [![build status](https://travis-ci.org/omardelarosa/mongo-elasticsearch.png?branch=master)](https://travis-ci.org/omardelarosa/mongo-elasticsearch?branch=master)  |  [![npm version](https://img.shields.io/npm/v/mongo-elasticsearch.svg)](https://img.shields.io/npm/v/mongo-elasticsearch.svg) | [![code_climate](https://codeclimate.com/github/omardelarosa/mongo-elasticsearch/badges/gpa.svg)](https://codeclimate.com/github/omardelarosa/mongo-elasticsearch)
+ development | [![build status](https://travis-ci.org/omardelarosa/mongo-elasticsearch.png?branch=development)](https://travis-ci.org/omardelarosa/mongo-elasticsearch?branch=development) | 1.0.1
 
 ## Install
 
 ```bash
-npm install mongolastic
+npm install mongo-elasticsearch
 ```
 
 ## Usage
 
 ```javascript
-var mongolastic = require('mongolastic');
-var t = new mongolastic.Transfer({
+var mongo-elasticsearch = require('mongo-elasticsearch');
+var t = new mongo-elasticsearch.Transfer({
   esOpts: {
     host: 'localhost:9200',
     log: 'trace'
