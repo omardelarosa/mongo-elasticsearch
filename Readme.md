@@ -4,13 +4,13 @@ Transfer MongoDB collections into Elasticsearch safely using JS native Promises 
 
 ## Install
 
-```
+```bash
 npm install mongolastic
 ```
 
 ## Usage
 
-```
+```javascript
 var mongolastic = require('mongolastic');
 var t = new mongolastic.Transfer({
   esOpts: {

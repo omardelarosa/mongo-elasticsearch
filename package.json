@@ -3,15 +3,28 @@
   "version": "1.0.0",
   "description": "import documents from mongodb to elasticsearch",
   "main": "index.js",
+  "keywords": [ 
+    "mongo", "mongodb", "elasticsearch", "database", "importer", "transfer", "data"
+  ],
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec test/"
   },
-  "author": "",
+  "engines": {
+    "node": ">= 0.10.40"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omardelarosa/mongolastic.git"
+  },
+  "author": {
+    "Name": "Omar Delarosa",
+    "email": "thedelarosa@gmail.com",
+    "url": "http://www.omardelarosa.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "elasticsearch": "^8.2.0",
-    "mongodb": "^2.0.46",
-    "q": "^1.4.1"
+    "elasticsearch": "~8.2.0",
+    "mongodb": "~2.0.46"
   },
   "devDependencies": {
     "chai": "^3.4.0",
