@@ -1,5 +1,5 @@
 {
-  "name": "mongolastic",
+  "name": "mongo-elasticsearch",
   "version": "1.0.1",
   "description": "import documents from mongodb to elasticsearch",
   "main": "index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/omardelarosa/mongolastic.git"
+    "url": "https://github.com/omardelarosa/mongo-elasticsearch.git"
   },
   "author": {
     "Name": "Omar Delarosa",
